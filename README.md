@@ -222,10 +222,11 @@ For production deployment:
 ## 👥 Contributors
 
 Prathmesh Sharma
+Het Selarka
 Aishani Sood
 Vansh Goyal
 Saksham Goyal
-Het Selarka
+
 
 ## 🤝 Support
 
