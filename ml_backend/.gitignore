@@ -1,0 +1,6 @@
+autoinsurance_churn.csv
+autoinsurance_churn_10000.csv
+autoinsurance_churn_20000.csv
+autoinsurance_churn_50000.csv
+.venv
+*.csv

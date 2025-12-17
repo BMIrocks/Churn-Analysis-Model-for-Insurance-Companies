@@ -1,0 +1,27 @@
+{
+  "target": "Churn",
+  "drop_cols": [
+    "individual_id",
+    "address_id"
+  ],
+  "one_hot": {
+    "drop_first": true
+  },
+  "model_path": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\megathon\\E-Cell-Megathon-25\\churn_model_no_cluster.pkl",
+  "features_path": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\megathon\\E-Cell-Megathon-25\\model_features_no_cluster.pkl",
+  "model_type": "xgboost.XGBClassifier",
+  "search": {
+    "cv_splits": 5,
+    "n_iter": 20,
+    "param_grid_keys": [
+      "n_estimators",
+      "learning_rate",
+      "max_depth",
+      "subsample",
+      "colsample_bytree",
+      "gamma",
+      "reg_alpha",
+      "reg_lambda"
+    ]
+  }
+}
